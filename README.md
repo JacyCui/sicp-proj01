@@ -50,6 +50,15 @@ In a normal game of Hog, those are all the rules. To spice up the game, we'll in
 
 After the first project, you will implement a dice rolling game with multiple strategies.
 
+You can have an exploration of it by doing this:
+
+```shell
+cd solution
+python3 hog_gui.py
+```
+
+> You will get a graphic user interface in your local browser with game logic implemented in my solution.
+
 ![gui-1](gui-1.png)
 
 ![gui-2](gui-2.png)
