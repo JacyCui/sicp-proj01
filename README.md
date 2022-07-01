@@ -62,6 +62,8 @@ To get started, download all of the project code.
 
 ```shell
 git clone https://github.com/JacyCui/sicp-proj01.git
+cd sicp-proj01
+unzip hog.zip
 ```
 
 Below is a list of all the files you will see in the archive `hog.zip`. However, you only have to make changes to `hog.py`.
