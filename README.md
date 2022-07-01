@@ -59,7 +59,7 @@ In a normal game of Hog, those are all the rules. To spice up the game, we'll in
 To get started, download all of the project code.
 
 ```shell
-
+git clone https://github.com/JacyCui/sicp-proj01.git
 ```
 
 Below is a list of all the files you will see in the archive `hog.zip`. However, you only have to make changes to `hog.py`.
@@ -79,6 +79,8 @@ Below is a list of all the files you will see in the archive `hog.zip`. However,
 - `tests`: A directory of tests used by `ok`
 
 - `gui_files`: A directory of various things used by the web GUI
+
+In the folder `solution` is my version of solution for hog project. You may not refer to it before you've finished the entire project.
 
 
 
@@ -480,7 +482,7 @@ python3 ok -q 06 --local
 
 ### Problem 7
 
-Implement the `announce_highest` function, which is a higher-order function that returns a commentary function. This commentary function announces whenever a particular player gains more points in a turn than ever before. E.g., `announce_highest(1)` ignores Player 0 entirely and just print information about Player 1. (So does its return value; another commentary function about only Player 1.) To compute the gain, it must compare the score from last turn (`last_score`) to the score from this turn for the player of interest, which is designated by the `who` argument. This function must also keep track of the highest gain for the player so far, which is store as `running_high`.
+Implement the `announce_highest` function, which is a higher-order function that returns a commentary function. This commentary function announces whenever a particular player gains more points in a turn than ever before. E.g., `announce_highest(1)` ignores Player 0 entirely and just print information about Player 1. (So does its return value; another commentary function about only Player 1. To compute the gain, it must compare the score from last turn (`last_score`) to the score from this turn for the player of interest, which is designated by the `who` argument. This function must also keep track of the highest gain for the player so far, which is store as `running_high`.
 
 The way in which `announce_highest` announces is very specific, and your implementation should match the doctests provided. Don't worry about singular versus plural when announcing point gains; you should simply use "point(s)" for both cases.
 
@@ -657,6 +659,10 @@ You can check that your final strategy is valid by running Ok.
 python3 ok -q 12 --local
 ```
 
+
+
+## Conclusion
+
 At this point, run the entire autograder to see if there are any tests that don't pass.
 
 ```shell
@@ -665,7 +671,7 @@ python3 ok --local
 
 You can also play against your final strategy with the graphical user interface:
 
-```
+```shell
 python3 hog_gui.py
 ```
 
