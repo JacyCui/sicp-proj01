@@ -48,9 +48,11 @@ In a normal game of Hog, those are all the rules. To spice up the game, we'll in
 
 ## Final Product
 
-> TODO: Demo The Final Product
+After the first project, you will implement a dice rolling game with multiple strategies.
 
+![gui-1](gui-1.png)
 
+![gui-2](gui-2.png)
 
 
 
@@ -677,9 +679,9 @@ python3 hog_gui.py
 
 The GUI will alternate which player is controlled by you.
 
+My version of implementation is in `solution` directory. Having a look at it may help you write better codes.
 
-
-Congratulations, you have reached the end of your first SICP project! If you haven't already, relax and enjoy a few games of Hog with a friend.
+Congratulations, you have reached the end of your first SICP project! If you haven't already, relax and enjoy a few games of Hog with a friend using the version implemented in `solution`.
 
 
 
